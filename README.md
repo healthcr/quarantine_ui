@@ -5,7 +5,7 @@
 * The App is no meant to replace current strategies, only to scale and triage monitoring and tracking of quarantine persons.
 
 ## Insipirarion:
-South Corea and Singapore are great of examples on the use of technology to Flatten the Curve and even stop community transimission. Here are some links for reference publications.
+South Corea and Singapore are great of examples on the use of technology to Flatten the Curve and even stop community transmision. Here are some links for reference publications.
 
 [Smart Phone App](https://www.technologyreview.com/s/615329/coronavirus-south-korea-smartphone-app-quarantine/),[sciencemag.com](https://www.sciencemag.org/news/2020/03/coronavirus-cases-have-dropped-sharply-south-korea-whats-secret-its-success),
 [Corean App](https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do;jsessionid=7bA+UtY0JOIXJytznXoyYNHR.node40?]bbsId=BBSMSTR_000000000205&nttId=76155)
