@@ -2,17 +2,17 @@
 
 * Written in English to obtain global collaboration
 
-* The App is no meant to replace current strategies, only to scale and triage monitoring and tracking of quarantine persons.
+* The App is not meant to replace current strategies, only to scale and triage monitoring and tracking of quarantine patients.
 
 ## Insipirarion:
-South Corea and Singapore are great of examples on the use of technology to Flatten the Curve and even stop community transmision. Here are some links for reference publications.
+South Corea and Singapore are great of examples on the use of technology to Flatten the Curve and slow down community transmision. Here are some links for reference publications.
 
 [Smart Phone App](https://www.technologyreview.com/s/615329/coronavirus-south-korea-smartphone-app-quarantine/),[sciencemag.com](https://www.sciencemag.org/news/2020/03/coronavirus-cases-have-dropped-sharply-south-korea-whats-secret-its-success),
 [Corean App](https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do;jsessionid=7bA+UtY0JOIXJytznXoyYNHR.node40?]bbsId=BBSMSTR_000000000205&nttId=76155)
 
-This is the front end (app) part of an open source system created in collaboration by engineers around the world that can be used freely by any goverment to achieve the same as South Corea and Singapore.
+This is the front end (app) part of an open source system created in collaboration by engineers around the world that can be used freely by any goverment to achieve similar results to South Corea and Singapore.
 
-This is a React web mobile first Application aimed at helping goverments track their citizens in quarantine.
+This is a React browser-based mobile-first web-page aimed at helping goverments track their citizens in quarantine.
 
 ## Overview ( Steps )
 
@@ -26,17 +26,19 @@ This is a React web mobile first Application aimed at helping goverments track t
 8. When a contact is marked as quarantine candidate, then they recieve and SMS asking them for their symptoms and informing them of their likeliness of virus transimision. 
 9. Depending of level of spread, goverment health institutions are able to select the range of actions for candiates from asking them to be tested, all the way to automatic quarantine.
 
+
 ## Features ( screens )
 * Login with Mobile Number
-* Report Symptoms
-* Triage Advisor and Test Location Routing
-* Quarantine GPS Tracing
-* Contact Selection and Notification
+* Report Symptoms and Obtain Guidance.
+* Triage Advisor and Test Location Routing.
+* Test Results Confirmations?
+* GPS Tracking of Quarantine Patients.
+* Contact Selection and Notification of Potential Transimission from confirmed patient.
 
 ## Collaboration Stategy
 We hope to get collaboration from infratructure providers in order to rapidly deploy the application for differente goverments without having to deal with burocratic payment and contracting processes.
 
-### Proposes Parters: 
+### Proposed Parters: 
 ( Still have to contact them. Please add an issue if you can help contacting them )
 
 #### AWS
