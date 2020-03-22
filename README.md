@@ -22,11 +22,12 @@ South Corea and Singapore are great of examples on the use of technology to Flat
 
 [Corean App](https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do;jsessionid=7bA+UtY0JOIXJytznXoyYNHR.node40?]bbsId=BBSMSTR_000000000205&nttId=76155)
 
+## TLDR ( Technical Overview ) 
 This is the front end (app) part of an open source system created in collaboration by engineers around the world that can be used freely by any goverment to achieve similar results to South Corea and Singapore.
 
 This is a React browser-based mobile-first web-page aimed at helping goverments track their citizens in quarantine.
 
-## Overview ( Steps )
+## Process Overview ( Steps )
 
 1. When a citizen starts to feel symptoms they use the app at http://cr.soscorona.org ( each country has it own subdomain ) 
 2. They login with their phone number and enable GPS tracking and access.
