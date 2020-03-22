@@ -9,7 +9,7 @@
 
 [https://www.screencovid.org](screencovid.org) > [https://dnahealthmap.shinyapps.io/CovidScreener_v01/](https://dnahealthmap.shinyapps.io/CovidScreener_v01/) 
 
-[https://www.jpost.com/International/CDC-introduces-online-coronavirus-self-checker-for-United-States-public-621867](CDC USA)
+[CDC USA](https://www.jpost.com/International/CDC-introduces-online-coronavirus-self-checker-for-United-States-public-621867)
 
 [Hacker News Conversation](https://news.ycombinator.com/item?id=22649822)
 
