@@ -4,7 +4,13 @@
 
 * The App is not meant to replace current strategies, only to scale and triage monitoring and tracking of quarantine patients.
 
-## Realworld Examples
+## In Progress
+
+* In Whats App Channel with CR infectology director. No reply yet
+* Applied to Bill and Melinda Gates Foundation Covid-19 Fund
+* Searching for corporate, political and technical sponsors.
+
+## Real World Examples
 [CDC USA](https://www.jpost.com/International/CDC-introduces-online-coronavirus-self-checker-for-United-States-public-621867)
 
 [Bill Gates Questions & Answers : $100MM Bugdet](https://www.gatesnotes.com/Health/A-coronavirus-AMA)
@@ -56,19 +62,26 @@ This is a React browser-based mobile-first web-page aimed at helping goverments 
 * GPS Tracking of Quarantine Patients.
 * Contact Selection and Notification of Potential Transimission from confirmed patient.
 
+## Team
+
+* Roberto Rodriguez - Lead Inventor
+
+## Sponsors and Advisers
+
+
 ## Collaboration Stategy
 We hope to get collaboration from infratructure providers in order to rapidly deploy the application for differente goverments without having to deal with burocratic payment and contracting processes.
 
-### Proposed Parters: 
+### Infrastructure Parters: 
 ( Still have to contact them. Please add an issue if you can help contacting them )
 
-#### AWS
+* AWS
 Web apps, UI and DB's will be deployed in AWS infrastrure. We require credits and a separate account for each goverment. Specifically CloudFront, 
 
-#### Twilio
+* Twilio
 Credits for sending SMS's globally until each goverment can plug in the API of their local service provider.
 
-#### Intercom
+*Intercom
 For online help chat and contact managment. 
 
 ## Privacy and Data Ownership
