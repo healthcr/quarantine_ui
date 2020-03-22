@@ -4,7 +4,7 @@ An Application that uses technology to scale government health institutions diag
 * Written in English to obtain global collaboration
 
 ## Why
-* Developed countries are launching applications specific for their situation. If local governments don't have their own platform, their citizens will use other countries and react in ways no appropriate to their current situation and further overload their health systems. *US CDC is lunching their APP on March 30*
+* Developed countries are launching applications specific for their situation. If local governments don't have their own platform, their citizens will use other countries and react in ways not appropriate to their current situation and further overloading their health systems. *US CDC is lunching their APP on March 30*
 
 * When Covid-19 infects large amounts of the population it becomes impossible to personally monitor and route citizens. A technology layer as the first point of contact helps score, route and monitor patients. Leaving the human task force to handle significant high scoring situations personally.
 
