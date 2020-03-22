@@ -5,11 +5,11 @@
 * The App is not meant to replace current strategies, only to scale and triage monitoring and tracking of quarantine patients.
 
 ## Realworld Examples
+[CDC USA](https://www.jpost.com/International/CDC-introduces-online-coronavirus-self-checker-for-United-States-public-621867)
+
 [https://www.clearstep.health/covid19](https://www.clearstep.health/covid19)
 
-[https://www.screencovid.org](screencovid.org) > [https://dnahealthmap.shinyapps.io/CovidScreener_v01/](https://dnahealthmap.shinyapps.io/CovidScreener_v01/) 
-
-[CDC USA](https://www.jpost.com/International/CDC-introduces-online-coronavirus-self-checker-for-United-States-public-621867)
+[screencovid.org](https://www.screencovid.org] > Validation Tool
 
 [Hacker News Conversation](https://news.ycombinator.com/item?id=22649822)
 
