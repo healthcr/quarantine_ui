@@ -7,6 +7,8 @@
 ## Realworld Examples
 [CDC USA](https://www.jpost.com/International/CDC-introduces-online-coronavirus-self-checker-for-United-States-public-621867)
 
+[Bill Gates Questions & Answers : $100MM Bugdet](https://www.gatesnotes.com/Health/A-coronavirus-AMA)
+
 [https://www.clearstep.health/covid19](https://www.clearstep.health/covid19)
 
 https://www.screencovid.org > Validation Tool
