@@ -9,7 +9,7 @@
 
 [https://www.clearstep.health/covid19](https://www.clearstep.health/covid19)
 
-[screencovid.org](https://www.screencovid.org] > Validation Tool
+https://www.screencovid.org > Validation Tool
 
 [Hacker News Conversation](https://news.ycombinator.com/item?id=22649822)
 
