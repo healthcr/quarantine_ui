@@ -4,6 +4,13 @@
 
 * The App is not meant to replace current strategies, only to scale and triage monitoring and tracking of quarantine patients.
 
+## Realworld Examples
+[https://www.clearstep.health/covid19](https://www.clearstep.health/covid19)
+
+[https://www.screencovid.org](screencovid.org) > [https://dnahealthmap.shinyapps.io/CovidScreener_v01/](https://dnahealthmap.shinyapps.io/CovidScreener_v01/) 
+
+[Hacker News Conversation](https://news.ycombinator.com/item?id=22649822)
+
 ## Insipirarion:
 South Corea and Singapore are great of examples on the use of technology to Flatten the Curve and slow down community transmision. Here are some links for reference publications.
 
