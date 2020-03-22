@@ -38,6 +38,12 @@ This is a React browser-based mobile-first web-page aimed at helping goverments 
 8. When a contact is marked as quarantine candidate, then they recieve and SMS asking them for their symptoms and informing them of their likeliness of virus transimision. 
 9. Depending of level of spread, goverment health institutions are able to select the range of actions for candiates from asking them to be tested, all the way to automatic quarantine.
 
+[[UPDATE]]
+* John Hopkings investigators have realeased a formula based on symptoms linked to points ( as used on physc diagnosis ) to determine is a person requires to visit the doctor. 
+
+* The CDC will release on March a diagnosis tool and I have heard is using this for it's bot. It's using a realtime bot to "talk" to patients , changing it's questions depending on previous questions an generating an AI based diagnosis.
+
+* We can also have a BOT on the diagnosis section of the APP.
 
 ## Features ( screens )
 * Login with Mobile Number
