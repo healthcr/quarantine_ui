@@ -9,12 +9,17 @@
 
 [https://www.screencovid.org](screencovid.org) > [https://dnahealthmap.shinyapps.io/CovidScreener_v01/](https://dnahealthmap.shinyapps.io/CovidScreener_v01/) 
 
+[https://www.jpost.com/International/CDC-introduces-online-coronavirus-self-checker-for-United-States-public-621867](CDC USA)
+
 [Hacker News Conversation](https://news.ycombinator.com/item?id=22649822)
 
 ## Insipirarion:
 South Corea and Singapore are great of examples on the use of technology to Flatten the Curve and slow down community transmision. Here are some links for reference publications.
 
-[Smart Phone App](https://www.technologyreview.com/s/615329/coronavirus-south-korea-smartphone-app-quarantine/),[sciencemag.com](https://www.sciencemag.org/news/2020/03/coronavirus-cases-have-dropped-sharply-south-korea-whats-secret-its-success),
+[Smart Phone App](https://www.technologyreview.com/s/615329/coronavirus-south-korea-smartphone-app-quarantine/)
+
+[sciencemag.com](https://www.sciencemag.org/news/2020/03/coronavirus-cases-have-dropped-sharply-south-korea-whats-secret-its-success)
+
 [Corean App](https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do;jsessionid=7bA+UtY0JOIXJytznXoyYNHR.node40?]bbsId=BBSMSTR_000000000205&nttId=76155)
 
 This is the front end (app) part of an open source system created in collaboration by engineers around the world that can be used freely by any goverment to achieve similar results to South Corea and Singapore.
