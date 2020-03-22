@@ -10,7 +10,7 @@ An Application that uses technology to scale government health institutions diag
 
 * News outlets with official information typically run twice a day. People are getting unofficial information hundreds of times a day in Social Networks and Whatsapp. Official information has a big disadvantage unless there is an official channel that meets their needs and it's sharable.
 
-* *In exponential growth situations, the time to act is when it feels to early*
+* *In exponential growth situations, the time to act is when it feels too early* - Paul Graham
 
 Technology is the only way possible way to trully scale initial contact and monintoring when Covid-19 infects large amounts
 
