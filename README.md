@@ -6,9 +6,11 @@ An Application that uses technology to scale government health institutions diag
 ## Why
 * Developed countries are launching applications specific for their situation. If local governments don't have their own platform, their citizens will use other countries and react in ways no appropriate to their current situation and further overload their health systems. *US CDC is lunching their APP on March 30*
 
-* When Covid-19 infects large amounts of the population it becomes impossible to personally monitor and direct. A technology layer as the first point of contact helps score, route and monitor patients. Leaving the human task force to handle significant high scoring situations personally.
+* When Covid-19 infects large amounts of the population it becomes impossible to personally monitor and route citizens. A technology layer as the first point of contact helps score, route and monitor patients. Leaving the human task force to handle significant high scoring situations personally.
 
 * News outlets in development countries typically run twice a day. People are getting unofficial information hundreds of times a day. Official information has a big disadvantage unless there is an official channel that meets their needs and it's sharable.
+
+* *In exponential growth situations, the time to act is when it feels to early*
 
 Technology is the only way possible way to trully scale initial contact and monintoring when Covid-19 infects large amounts
 
