@@ -9,7 +9,6 @@ import { useStore } from "business/hooks/useStore";
 import { useGet } from "business/hooks/useGet";
 
 import mixpanel from "mixpanel-browser";
-
 const useStyles = makeStyles(theme => ({}));
 
 export default function Album() {
@@ -17,11 +16,9 @@ export default function Album() {
   const { state, dispatch } = useStore();
   const { get, response, loading, error } = useGet();
 
-  React.useEffect(() => {
-    mixpanel.init(process.env.REACT_APP_MIXPANEL_KEY);
-  }, []);
-
   const onLogin = ({ phone, pais }) => {
+    mixpanel.identify("+" + pais + "" + phone);
+
     dispatch({
       type: "login",
       payload: { phone, pais }

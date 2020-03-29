@@ -1,11 +1,9 @@
 export const userInitialState = {
-  user: {
-    authorization: null,
-    phone: "",
-    pais: "506",
-    ssn: "",
-    loggedIn: false
-  }
+  authorization: null,
+  phone: "",
+  pais: "505",
+  ssn: "",
+  loggedIn: false
 };
 
 export const userActions = {

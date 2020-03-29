@@ -56,11 +56,13 @@ const useStyles = makeStyles(theme => ({
 export default function Hero(props) {
   const classes = useStyles();
 
+  /*
   const [cases, setCases] = React.useState(0);
 
   const { get, response, loading, error } = useGet(
     "https://coronavirus-19-api.herokuapp.com/countries/costa"
   );
+  
 
   React.useEffect(() => {
     (async () => {
@@ -69,6 +71,7 @@ export default function Hero(props) {
       setCases(res);
     })();
   }, []);
+*/
 
   return (
     <div className={classes.root}>
@@ -78,9 +81,6 @@ export default function Hero(props) {
           <Typography variant="h6" className={classes.title}>
             coronacr.org
           </Typography>
-          <Button color="inherit">
-            Casos: {cases.cases}+{cases.todayCases}{" "}
-          </Button>
         </Toolbar>
       </AppBar>
     </div>

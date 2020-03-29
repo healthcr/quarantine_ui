@@ -7,6 +7,7 @@ import Paywall from "../components/paywall";
 
 import { useStore } from "business/hooks/useStore";
 import { useGet } from "business/hooks/useGet";
+import mixpanel from "mixpanel-browser";
 
 const useStyles = makeStyles(theme => ({}));
 
@@ -14,6 +15,10 @@ export default function Album() {
   const classes = useStyles();
   const { state, dispatch } = useStore();
   const { get, response, loading, error } = useGet();
+
+  React.useEffect(() => {
+    mixpanel.init(process.env.REACT_APP_MIXPANEL_KEY);
+  }, []);
 
   return (
     <React.Fragment>

@@ -218,7 +218,7 @@ export default function CustomerAsynchronous(props) {
           name="ssn"
           label={
             "CIUDADANO/RESIDENTE" == estadoLegal
-              ? "Cedula o Dimex"
+              ? "Identificación"
               : "Pasaporte"
           }
           fullWidth

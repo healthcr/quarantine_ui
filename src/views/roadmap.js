@@ -17,6 +17,7 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
+import mixpanel from "mixpanel-browser";
 
 const useStyles = makeStyles(theme => ({
   table: { width: 800 }
@@ -55,8 +56,8 @@ export default function Album() {
           En esta seccion encontrará el roadmap, presupuesto y plan de
           divulgación. <br />
           <br />
-          En general la divulgación se realizará primero via SMS con el ICE y
-          posteriormente via WhatsApp para reducir costos.
+          En general la divulgación se realizará primero via SMS con operadores
+          interesados y posteriormente via WhatsApp para reducir costos.
         </Typography>
 
         <Box mt={3}>
@@ -175,35 +176,6 @@ export default function Album() {
         >
           4. Escalabilidad y Desescalabilidad automatizada, Automatic Failover,
           Back-up cada 3 minutos
-        </Typography>
-
-        <Typography
-          component="h6"
-          variant="caption"
-          align="left"
-          color="textPrimary"
-          gutterBottom
-        >
-          Creado por 3 costarricenses:
-          <br /> Roberto Artavia
-          <br /> Roberto Echeverría
-          <br /> Roberto Rodríguez
-        </Typography>
-        <small>
-          Open Source, Citizen Crowd Sourcing, IP para OMS Patent Fund
-        </small>
-
-        <Typography
-          style={{ marginBottom: 20 }}
-          component="h6"
-          variant="subtitle2"
-          align="left"
-          color="textSecondary"
-          gutterBottom
-        >
-          El proyecto tecnológico más ambioso de la historia costarricense. El
-          más importante sin duda.
-          <br />
         </Typography>
       </main>
     </React.Fragment>
@@ -383,8 +355,8 @@ function BudgetTable() {
           gutterBottom
         >
           El costo mas elevado es el de los mensajes de texto SMS. Negociando
-          con el ICE o moviendonos a Whats App ( con un proceso muy urgente ),
-          es posible recortar una gran mayoria de los costos.
+          con operados telefónicas o moviendonos a Whats App ( con un proceso
+          muy urgente ), es posible recortar una gran mayoria de los costos.
         </Typography>
       </Box>
 
@@ -407,17 +379,6 @@ function BudgetTable() {
           color="textSecondary"
           gutterBottom
         >
-          Los costos aquí mostrados corresponden a operación en la nube bajo
-          modalidad $0.0001/segundo-servidor, $0,004/envio-sms $0.003/minuto-voz
-        </Typography>
-        <Typography
-          style={{ marginBottom: 20 }}
-          component="h6"
-          variant="body2"
-          align="left"
-          color="textSecondary"
-          gutterBottom
-        >
           Estoy negociando con los provedores{" "}
           <a target="_blank" href="https://aws.amazon.com/">
             Amazon AWS
@@ -429,8 +390,7 @@ function BudgetTable() {
             Heroku
           </a>{" "}
           pero necesitamos el respaldo por escrito del Gobierno para negociar
-          (no son contratos son costos ). El ICE nos puede reducir el 80% de los
-          costos de SMS.
+          con los proveedores (no son contratos son costos )
           <br />
           Las telefónicas también deberían liberar el cobro de datos para
           internet celular desde http://coronacr.org

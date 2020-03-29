@@ -20,7 +20,6 @@ import MenuItem from "@material-ui/core/MenuItem";
 import FormHelperText from "@material-ui/core/FormHelperText";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
-import mixpanel from "mixpanel-browser";
 
 const useStyles = makeStyles(theme => ({
   icon: {
@@ -62,25 +61,19 @@ export default function CustomerAsynchronous(props) {
   const [error, setError] = React.useState(null);
   const [phone, setPhone] = React.useState("");
   const [ssn, setSsn] = React.useState("");
-  const [pais, setPais] = React.useState("506");
+  const [pais, setPais] = React.useState("");
   const [relationship, setRelationship] = React.useState("");
   const [loading, setLoading] = React.useState(false);
   const [value, setValue] = React.useState(0);
   const [type, setType] = React.useState("NACIONAL");
 
   const onLogin = () => {
-    mixpanel.identify("+" + pais + "" + phone);
-
-    mixpanel.people.set({
-      $phone: "+" + pais + "" + phone,
-      USER_ID: "+" + pais + "" + phone // use human-readable names
-    });
     props.onLogin({ phone, pais });
   };
 
   React.useEffect(() => {
     setPhone(props.state.user.phone);
-    setPais(props.state.user.pais);
+    setPais(props.state.user.pais || "505");
     setSsn(props.state.user.ssn);
   }, [props.state.user]);
 
@@ -137,24 +130,31 @@ export default function CustomerAsynchronous(props) {
           para cada persona. Van a ser muy esperados!
         </Typography>
 
-        <Grid container spacing="2">
-          <Grid item xs={3}>
-            <TextField
-              className={classes.formControl}
-              gutterBottom
-              variant="outlined"
-              fullWidth
-              margin="dense"
-              value={pais}
-              onChange={e => {
-                setError(null);
-                setPais(e.currentTarget.value);
-              }}
-              id="pais"
-              type="number"
-              name="pais"
-              label="Código"
-            />
+        <Grid container spacing={2}>
+          <Grid item xs={5}>
+            <FormControl fullWidth>
+              <InputLabel id="demo-simple-select-label">País</InputLabel>
+              <Select
+                native
+                gutterBottom
+                fullWidth
+                inputProps={{
+                  name: "pais",
+                  id: "filled-pais-native-simple"
+                }}
+                value={pais}
+                onChange={e => {
+                  setError(null);
+                  setPais(e.target.value);
+                }}
+              >
+                <option value={"506"}>Costa Rica</option>
+                <option value={"505"}>Nicaragua</option>
+                <option value={"504"}>Honduras</option>
+                <option value={"503"}>El Salvador</option>
+                <option value={"502"}>Guatemala</option>
+              </Select>
+            </FormControl>
           </Grid>
           <Grid item xs={7}>
             <TextField
